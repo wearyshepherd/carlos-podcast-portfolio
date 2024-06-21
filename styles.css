@@ -180,7 +180,7 @@ form button:hover {
     color: #000;
 }
 
-.social-media a:hover {
+social-media a:hover {
     text-decoration: underline;
 }
 
@@ -193,6 +193,7 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -207,6 +208,7 @@ footer {
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .scattered-photos {
     display: flex;
     flex-wrap: wrap;
@@ -216,8 +218,8 @@ footer {
 }
 
 .scattered-photos img {
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 200px;
     border: none;
     box-shadow: none;
     transition: transform 0.3s ease;
