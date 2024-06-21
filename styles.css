@@ -50,7 +50,7 @@ nav ul li a {
 }
 
 .hero-section {
-    background: url('assets/images/IMG_7504_VSCO.JPG') no-repeat center center/cover;
+    background: url('assets/images/backport.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -193,3 +193,37 @@ footer {
     width: 100%;
     bottom: 0;
 }
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.scattered-photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.scattered-photos img {
+    width: 200px;
+    height: auto;
+    border: none;
+    box-shadow: none;
+    transition: transform 0.3s ease;
+}
+
+.scattered-photos img:hover {
+    transform: scale(1.05);
+}
+
