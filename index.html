@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Chavez - Audio Podcast Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Carlos Chavez</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="text-box">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Experienced Audio Podcast Editor</p>
+                <a href="#portfolio" class="cta-button">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>With years of experience in audio editing and podcast production, I bring a unique blend of technical skill and creative insight to every project.</p>
+            <h3>Skills</h3>
+            <ul>
+                <li>Proficiency with audio editing software (Ableton, Pro Tools)</li>
+                <li>Podcast hosting platforms and managing RSS feeds</li>
+                <li>Strong written and verbal communication skills</li>
+                <li>Highly organized and able to multi-task</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="grid">
+                <!-- Example of a portfolio item -->
+                <div class="portfolio-item">
+                    <img src="assets/images/portfolio1.jpg" alt="Project 1">
+                    <h3>Podcast Episode 1</h3>
+                    <p>Description of the project and your role in it.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/images/portfolio2.jpg" alt="Project 2">
+                    <h3>Podcast Episode 2</h3>
+                    <p>Description of the project and your role in it.</p>
+                </div>
+                <!-- Add more portfolio items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <ul>
+                <li>Editing & Mixing</li>
+                <li>Podcast Management</li>
+                <li>Consultation</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <blockquote>
+                <p>"Carlos is a fantastic audio editor. His attention to detail and commitment to quality is unmatched." - Client A</p>
+            </blockquote>
+            <blockquote>
+                <p>"Working with Carlos has been a game-changer for our podcast. He brings a level of professionalism that elevates our content." - Client B</p>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/carloschavez">LinkedIn</a>
+                <a href="https://twitter.com/carloschavez">Twitter</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Carlos Chavez. All rights reserved.</p>
+    </footer>
+</body>
+</html>
