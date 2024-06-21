@@ -97,9 +97,114 @@ nav ul li a {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
     text-align: left;
+}
+
+.title-home {
+    color: #f0c040;
+}
+
+.title-about {
+    color: #ff6347;
+}
+
+.title-portfolio {
+    color: #4682b4;
+}
+
+.title-services {
+    color: #32cd32;
+}
+
+.title-sessions {
+    color: #ff69b4;
+}
+
+.title-contact {
+    color: #dda0dd;
+}
+
+.skills-section, .services-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.skills-list, .services-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    flex: 1;
+}
+
+.skills-list li, .services-list li {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.skills-images, .services-images {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skills-images img, .services-images img {
+    width: 48%;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.services-section {
+    background-color: #4b4bff; /* Background color */
+    color: #fff; /* Text color */
+    padding: 4rem 0;
+}
+
+.services-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-text {
+    flex: 1;
+}
+
+.services-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.services-image img {
+    width: 80%; /* Increase width to make image larger */
+    border-radius: 10px;
+}
+
+.flex-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.flex-item {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.flex-item.text-side {
+    max-width: 50%;
+}
+
+.flex-item.image-side img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
 }
 
 .grid {
@@ -180,7 +285,7 @@ form button:hover {
     color: #000;
 }
 
-social-media a:hover {
+.social-media a:hover {
     text-decoration: underline;
 }
 
@@ -226,6 +331,85 @@ footer {
 }
 
 .scattered-photos img:hover {
+    transform: scale(1.05);
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-text {
+    flex: 1;
+    padding: 2rem;
+}
+
+.about-text h2 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.skills-list li {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.sessions-section {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+}
+
+.sessions-section .scattered-photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.sessions-section .scattered-photos img {
+    width: auto;
+    height: 200px;
+    border: none;
+    box-shadow: none;
+    transition: transform 0.3s ease;
+}
+
+.sessions-section .scattered-photos img:hover {
     transform: scale(1.05);
 }
 
